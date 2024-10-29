@@ -16,10 +16,10 @@ public class RequestDemo2 extends HttpServlet {
             String value = req.getHeader(name);
             System.out.println(name+":"+value);
         }
-//        String header = req.getHeader("header");
-//        if(header.contains("2345ä¯ÀÀÆ÷")){
-//            System.out.println("2345ä¯ÀÀÆ÷");
-//        }
+        String header = req.getHeader("header");
+        if(header.contains("Edg")){
+            System.out.println("Edg");
+        }
 //        else if(header.contains("Chrome")){
 //            System.out.println("Chrome");
 //        }

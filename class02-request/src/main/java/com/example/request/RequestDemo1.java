@@ -7,7 +7,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.net.http.HttpClient;
 
 @WebServlet("/request1")
 public class RequestDemo1 extends HttpServlet {
